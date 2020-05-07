@@ -1,0 +1,132 @@
+/* changes the background + text color */
+body {
+background-color: #CD8162; /*used color light salmon3 from https://www.december.com/html/spec/color1.html */
+color: white;
+}
+
+/*ID for welcome statement on home page */
+#greeting {
+  font-family: BungeeShade;
+  font-weight: lighter;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 0.50em;
+  width: 800px; /*start from here for the box around title*/
+  border: 5px solid white;
+  padding: 1px;
+  margin: 20px;
+  margin-left: 23%;
+  margin-right: auto;
+  border-radius: 25px;/* start of creating rounded border corners*/
+  padding: 20px;
+  width: 800px;
+  height: 150px;
+}
+
+/* importing fonts, any @font-face*/
+@font-face{
+  font-family: BungeeShade;
+  src: url(Fonts/bungee/Bungee_Basic/BungeeShade-Regular.ttf);
+}
+
+@font-face {
+  font-family: Antonio-Light;
+  src: url(Fonts/antonio/Antonio-Light.ttf);
+}
+
+@font-face {
+  font-family: fascinate-inline;
+  src: url(Fonts/fascinate-inline/FascinateInline-Regular.ttf);
+}
+
+/* ID for greeting on main page */
+#Intro p {
+  font-family: Antonio-Light;
+  font-size: 500%;
+  letter-spacing: 0.30em;
+  writing-mode: vertical-rl; /*start for creating vertical name*/
+  text-orientation: sideways-right;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  float: left;
+}
+#in2 p {
+  font-family: Antonio-Light;
+  font-size: 130%;
+  letter-spacing: 0.30em;
+  writing-mode: vertical-rl; /*start for creating vertical name*/
+  text-orientation: upright;
+  margin-top: -7%;
+  margin-bottom: 2%;
+  margin-left: -16%;
+  float: left;
+}
+
+/* ID for main paragraph on home page */
+#mains {
+  font-family: Antonio-Light;
+  font-size: 200%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45%;
+
+}
+
+#prof {
+  float: right;
+  margin-right: 30%;
+  border-radius: 70%;
+}
+
+/* used to make the scrolling images*/
+.parallax {
+  /* The image used */
+  background-image: url("IMG_2564.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* color of background and font styling */
+ background-color: #FFF5EE;
+ color: black;
+ font-family: Antonio-Light;
+ border-radius: 25px;/* start of creating rounded border corners*/
+ padding: 20px;
+ width: 200px;
+ height: 150px;
+ width: 1400px; /*start from here for the box around title*/
+ border: 5px solid black;
+ padding: 0.5px;
+ padding-right: 1%;
+ margin: 10px;
+ margin-left: auto;
+ margin-right: auto;
+
+  /* Set a specific height */
+  height: 60px;
+  padding-top: -0.2%;
+  padding-bottom: 1%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgs {
+  padding-left: 40%;
+  margin-right: 10%;
+}
